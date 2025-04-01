@@ -4,7 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField
 from wtforms.validators import InputRequired, Length, NumberRange
 
-db = SQLAlchemy()  # ✅ Moved db here since we removed extensions.py
+db = SQLAlchemy()  
 
 
 # ✅ Item Model
