@@ -15,7 +15,6 @@ db.init_app(app)
 
 # Register Routes & Error Handlers
 app.register_blueprint(routes_bp)
-register_error_handlers(app)
 
 # Create Tables
 with app.app_context():
